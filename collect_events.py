@@ -27,10 +27,6 @@ from neo4j import GraphDatabase
 
 data_folder_name = '/home/ec2-user/d_scrape/dataUCSD/'
 
-neo4j_uri = "neo4j+s://32c386b6.databases.neo4j.io"
-neo4j_user = "neo4j"
-neo4j_password = "lXx1rWQyLKFNkRk3YbZrs0fNf8s5ujqBmA3HC5edcFk"
-
 extract_array = os.listdir(data_folder_name)
 
 def get_pred_type(prediction):
@@ -364,11 +360,6 @@ day_list = {"monday":0, "tuesday":1, "wednesday":2, "thursday":3, "friday":4, "s
 month_list = {"jan":1, "feb":2, "march":3, "apr":4, "may":5, "june":6, "july":7, "august":8, "sept":9, "october":10, "nov":11, "december":12}
 relative_date_list = {"today":0, "tomorrow": 1, "tonight": 0, "night":0}
 
-
-## AWS
-
-access_key = 'AKIAR6GV237C6LRS6K7D' #'AKIA2IIOOLB6IZ4NQOWM'
-secret_access_key = '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' #'YuCZO2+yId3Hj4yBwUXkuIxUiP12100pIH6V6TyW'  #change when putting in py file
 
 # Creating Session With Boto3.
 session = boto3.Session(
