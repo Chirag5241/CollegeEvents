@@ -64,8 +64,8 @@ This file has all the visualizations for topic clustering
 
 ## Model performance
 
-Both precision, recall and F1 score are above 0.90 for the deep learning model. For details see Jupyter Notebook.
+Clusters topics well
 
 ## Limitations of work
 
-We just trained on the title itself, did not utilize the article link. Sometimes whether a title is sarcastic or not will be based on context (such as the article content). This could be a future work item. With that being said, we're satisfied with our current model performance.
+No labeled data to compare results
