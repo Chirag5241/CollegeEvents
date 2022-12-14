@@ -30,23 +30,6 @@ This file stores data of the messages that contain time extracted from discord m
   <li>More details in the Jupyter Notebook</li>
 </ol>
 
-## Webapp
-
-<ol>
-  <li>Data preprocessing by getting rid of HTML tags, stemming, converting to lower case, stemming, getting rid of stopwords etc.</li>
-  <li>Extract words and bi-grams from sentence</li>
-  <li>Used tfidf to build features for model training</li>
-  <li>Applied a logistic regression to serve the model, for demonstration purposes. Ran into a whole series of problems when deploying the app to the web due to the environment/dependencies/servers not having the most updated package available. Hang using a Bert-related model in the Jupyter Notebook, which is a way more fancier model than the one in the App. </li>
-</ol>
-
-# Contributions
-
-<ul>
-  <li>Anqi & Majharul: Data preprocessing, generating graphs</li>
-  <li>Hang: Train a Bert-based model with Pytorch in Jupyter Notebook</li>
-  <li>Tianhao: Webapp developed in Dash with packages such as scikit-learn, deployed to render.com</li>
- </ul>
-
 # Jupter Notebook instruction
 
 Assume you're already in the CourseProject folder, having done the following
