@@ -10,6 +10,8 @@ The presentation is uploaded as a file on the github. It goes over the main them
 
 I collected data from various servers, parsed the events with time and ran LDA on the messages to get topic clusters.
 
+Please view https://youtu.be/N1y4DZVooDM for the demo video
+
 # Implementations
 
 ## collect_events.py
