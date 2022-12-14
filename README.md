@@ -24,9 +24,8 @@ This file stores data of the messages that contain time extracted from discord m
 ## Jupyter notebook part
 
 <ol>
-  <li>Data preprocessing by getting rid of HTML tags, stemming, converting to lower case, stemming, getting rid of stopwords etc.</li>
+  <li>Data processing by getting rid of stopwords, stemming,etc.</li>
   <li>Data visualization with seaborn/matplotlib etc.</li>
-  <li>Applied a Bert-like model with Pytorch</li>
   <li>More details in the Jupyter Notebook</li>
 </ol>
 
